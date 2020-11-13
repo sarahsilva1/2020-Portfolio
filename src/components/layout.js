@@ -75,7 +75,7 @@ const TemplateWrapper = ({ children }) => {
                     key={profile.profileType}
                     href={profile.url}
                     target="blank"
-                    // className={`social social--${profile.profileType.toLowerCase()}`}
+                    className={`social social--${profile.profileType.toLowerCase()}`}
                   >
                     {" "}
                   </a>
